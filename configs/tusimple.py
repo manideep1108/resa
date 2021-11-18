@@ -56,8 +56,8 @@ img_width = 640
 cut_height = 160
 seg_label = "seg_label"
 
-dataset_path = './data/tusimple'
-test_json_file = './data/tusimple/test_label.json'
+dataset_path = '/kaggle/input/tusimple/train_set'
+test_json_file = '/kaggle/input/tusimple/test_label.json'
 
 dataset = dict(
     train=dict(
