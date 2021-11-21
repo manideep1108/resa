@@ -60,6 +60,7 @@ class BaseDataset(Dataset):
         return len(self.full_img_path_list)
 
     def __getitem__(self, idx):
+        print(self.full_img_path_list[idx])
         img = cv2.imread(self.full_img_path_list[idx]).astype(np.float32)
         img = img[self.cfg.cut_height:, :, :]
 
