@@ -57,7 +57,7 @@ cut_height = 160
 seg_label = "seg_label"
 
 dataset_path = '/kaggle/input/tusimple/train_set'
-test_json_file = '/kaggle/input/tusimple/test_label.json'
+test_json_file = '/kaggle/input/tusimple/test_label_new.json'
 
 dataset = dict(
     train=dict(
